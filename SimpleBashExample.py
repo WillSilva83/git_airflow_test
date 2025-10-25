@@ -9,6 +9,7 @@ import pendulum
 from airflow.models.dag import DAG
 from airflow.operators.bash import BashOperator
 
+
 # ----------------------------------------------------------------------
 # 1. Define Default Arguments
 # These arguments apply to all tasks in the DAG by default.
